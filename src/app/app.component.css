@@ -1,0 +1,21 @@
+.logo {
+  max-height: 50px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar > .container-fluid {
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}

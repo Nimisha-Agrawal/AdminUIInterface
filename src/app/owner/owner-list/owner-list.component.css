@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 500px;
+}
+th.mat-header-cell {
+  text-align: left;
+  max-width: 300px;
+}
+
+.mat-form-field {
+  max-width: 100%;
+  border-style: inset;
+}
+
+.greyedRow {
+  background-color: var(--bs-gray-400);
+}
+
+:-ms-input-placeholder{
+    color:var(--bs-gradient);
+}
+
+::-webkit-input-placeholder{
+    color:var(--bs-gradient);
+}

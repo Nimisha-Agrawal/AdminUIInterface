@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlAddress:
+    'https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json',
 };
 
 /*

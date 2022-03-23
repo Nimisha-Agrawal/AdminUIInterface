@@ -33,8 +33,7 @@ export class OwnerListComponent implements OnInit {
   ];
 
   public dataSource = new MatTableDataSource<Owner>();
-  //checkedStatus:any = {};
-
+  
   @ViewChild(MatSort)
   sort!: MatSort;
   @ViewChild(MatPaginator)
